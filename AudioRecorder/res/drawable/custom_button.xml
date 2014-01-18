@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                    android:startColor="@color/red_bright"
+                    android:endColor="@color/red_bright"
+                    android:angle="270" />
+            <stroke
+                    android:width="2dp"
+                    android:color="@color/red_dark" />
+            <corners
+                    android:radius="@dimen/button_radius_small" />
+            <padding
+                    android:left="@dimen/button_padding_small"
+                    android:top="@dimen/button_padding_small"
+                    android:right="@dimen/button_padding_small"
+                    android:bottom="@dimen/button_padding_small" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                    android:endColor="@color/red_bright"
+                    android:startColor="@color/red_bright"
+                    android:angle="270" />
+            <stroke
+                    android:width="2dp"
+                    android:color="@color/red_dark" />
+            <corners
+                    android:radius="@dimen/button_radius_small" />
+            <padding
+                    android:left="@dimen/button_padding_small"
+                    android:top="@dimen/button_padding_small"
+                    android:right="@dimen/button_padding_small"
+                    android:bottom="@dimen/button_padding_small" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient
+                    android:endColor="@color/blue_light"
+                    android:startColor="@color/blue_light"
+                    android:angle="270" />
+            <stroke
+                    android:width="2dp"
+                    android:color="@color/blue_cobalt" />
+            <corners
+                    android:radius="@dimen/button_radius_small" />
+            <padding
+                    android:left="@dimen/button_padding_small"
+                    android:top="@dimen/button_padding_small"
+                    android:right="@dimen/button_padding_small"
+                    android:bottom="@dimen/button_padding_small" />
+        </shape>
+    </item>
+</selector>

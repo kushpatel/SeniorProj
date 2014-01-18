@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioRecorder</string>
+
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+
+    <string name="sensor_select_prompt">Select a sensor</string>
+    <string-array name="sensor_select_array">
+        <item>All Sensors</item>
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Barometer</item>
+        <item>Compass</item>
+    </string-array>
+</resources>

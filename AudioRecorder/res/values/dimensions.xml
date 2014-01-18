@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_font_large">20dp</dimen>
+    <dimen name="button_font_extra_large">40dp</dimen>
+    <dimen name="button_font_small">15dp</dimen>
+    <dimen name="button_padding_small">7dp</dimen>
+    <dimen name="button_radius_small">3dp</dimen>
+    <dimen name="button_margin_small">10dp</dimen>
+</resources>
